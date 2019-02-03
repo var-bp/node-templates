@@ -1,3 +1,7 @@
+// https://stackoverflow.com/a/38546537
+// https://www.valentinog.com/blog/socket-io-node-js-react/
+// https://itnext.io/building-a-node-js-websocket-chat-app-with-socket-io-and-react-473a0686d1e1
+
 const path = require('path');
 const http = require('http');
 const express = require('express');
@@ -48,7 +52,7 @@ io.on('connection', (socket) => {
     var user = users.getUser(socket.id);
 
     if (user) {
-      io.to(user.room).emit('newLocationMessage', generateLocationMessage(user.name, coords.latitude, coords.longitude));  
+      io.to(user.room).emit('newLocationMessage', generateLocationMessage(user.name, coords.latitude, coords.longitude));
     }
   });
 
