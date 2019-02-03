@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WebSocket</title>
+  </head>
+  <body>
+    <script>
+      const ws = new WebSocket('ws://localhost:5000');
+      // emmited when connected
+      ws.onopen = (event) => {
+        // sending a send event to websocket server
+        ws.send("Hi, I'm a client");
+      };
+      ws.onerror = (event) => {
+        console.log('server error message:', event.data);
+      };
+      // event emmited when receiving message
+      ws.onmessage = (event) => {
+        console.log('server message:', event.data);
+      };
+    </script>
+  </body>
+</html>
