@@ -27,5 +27,5 @@ CRUD - Create, Read, Update, Delete
 17. Загрузка файлов
 18. Тестирование (Mocha, Expect)
 19. Кэширование (Redis) &#x2611;
-20. Website deploy strategy (AWS, Heroku, docker): https://hackernoon.com/build-a-crud-api-with-mongodb-express-and-docker-70510c6f706b
+20. Website deploy strategy (AWS, Heroku, docker -> dockerfile, docker-compose, dokku): https://hackernoon.com/build-a-crud-api-with-mongodb-express-and-docker-70510c6f706b
 21. nginx

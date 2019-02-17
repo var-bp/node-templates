@@ -1,0 +1,18 @@
+version: '1'
+services:
+  myapp:
+    container_name: app
+    restart: always
+    build: .
+    ports:
+      - '4300:4300'
+      - '4301:4301'
+    links:
+      - redis
+      - mongo
+  mongo:
+    container_name: app-mongo
+    image: 'mongo:4'
+  redis:
+    container_name: app-redis
+    image: 'redis:4.0.11'
