@@ -1,12 +1,14 @@
 # Node.js templates
 
-Аутентификация - это когда кого-то просто пускают по логину и паролю, или не пускают.
+Аутентификация -> это когда кого-то просто пускают по логину и паролю, или не пускают.
 
-Авторизация - пустили кого надо - это хорошо. Теперь нужно понять кого именно мы пустили. И не только вывести то что он ввел в качестве имени, но и решить к чему его подпускать, а чему нет.
+Авторизация -> пустили кого надо - это хорошо. Теперь нужно понять кого именно мы пустили. И не только вывести то что он ввел в качестве имени, но и решить к чему его подпускать, а чему нет.
 
-REST - https://restfulapi.net/
+REST -> https://restfulapi.net/
 
-CRUD - Create, Read, Update, Delete
+CRUD -> Create, Read, Update, Delete
+
+PaaS, DBaaS, SaaS -> https://habr.com/ru/company/kingservers/blog/310022/
 
 1. Session-Based Authentication &#x2611;
 2. JSON Web Token (JWT) Authentication &#x2611;
@@ -24,8 +26,8 @@ CRUD - Create, Read, Update, Delete
 14. GraphQL API server (Prisma, PostGraphile)
 15. Уведомления по Email, SMS и Webhooks
 16. Взаимодействие с платежным шлюзом
-17. Загрузка файлов
+17. Загрузка файлов (amazon s3, azure file storage, google cloud storage)
 18. Тестирование (Mocha, Expect)
 19. Кэширование (Redis) &#x2611;
-20. Website deploy strategy (AWS, Heroku, docker -> dockerfile, docker-compose, dokku): https://hackernoon.com/build-a-crud-api-with-mongodb-express-and-docker-70510c6f706b
+20. Website deploy strategy: AWS, Heroku &#x2611;, docker &#x2611;, dokku
 21. nginx
