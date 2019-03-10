@@ -6,6 +6,7 @@ Docker
 Node.js using Docker: https://blog.bitsrc.io/manage-your-node-app-using-docker-like-a-pro-6266f6516cf
 Docker vs Virtual Machines: https://nickjanetakis.com/blog/comparing-virtual-machines-vs-docker-containers
 Docker and Node.js Best Practices: https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#cmd
+Best practices for writing Dockerfiles: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 Exploring Docker: https://www.youtube.com/playlist?list=PLillGF-Rfqbb6vZqT-Lzi9Al_noaY5LAs
 CRUD API with MongoDB, Express, and Docker: https://hackernoon.com/build-a-crud-api-with-mongodb-express-and-docker-70510c6f706b
 
